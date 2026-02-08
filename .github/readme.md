@@ -1,7 +1,7 @@
-# 🏭 Qwen3 Voice Factory (RTX 50 Series Optimized)
+# 🏭 Qwen3 Voice Factory (Optimized for AMD GPUs)
 
 A local, portable GUI for [Qwen3-TTS](https://huggingface.co/Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice).
-Specially optimized for **NVIDIA RTX 50 Series** (CUDA 12.8 / PyTorch Nightly), but also runs on previous generations (3090/4090).
+Specially optimized for **AMD RDNA2 (only gfx1030 and gfx1032), RNDA3 (7000 series) and RDNA4 /9000 series) **
 
 > **🎯 Perfect for anyone who wants to test these models quickly without dealing with complex node graphs (ComfyUI).**
 
@@ -20,8 +20,8 @@ Specially optimized for **NVIDIA RTX 50 Series** (CUDA 12.8 / PyTorch Nightly), 
 
 1. Download this repository as a ZIP file and extract it.
 2. Double-click on `install.bat`.
-   - The script automatically downloads an isolated Python 3.11 environment.
-   - It installs PyTorch Nightly (required for Blackwell / RTX 50 Series support).
+   - The script automatically downloads an isolated Python 3.12 environment.
+   - It installs pyTorch & rocm (required for AMD GPU support).
 3. Wait until the installation is complete.
 
 ## Usage
@@ -35,19 +35,21 @@ Models are automatically downloaded from HuggingFace the first time you use a sp
 ## Requirements
 
 - Windows 10/11
-- NVIDIA GPU (Recommended: 12GB+ VRAM)
+- AMD GPU (starting from rdna2 6600 and up)
 - Internet connection (required for installation and model download)
 
-## 🔗 Credits & Acknowledgements
+## 🔗 Original Credits & Acknowledgements
 
 This project is a GUI wrapper built to make the amazing work of the **Qwen Team** easily accessible. All AI capabilities are powered by their models.
 
+- Forked from  [Detoxfox4234's original project](https://github.com/Detoxfox4234/Qwen3-Voice-Factory)
 - **Base Models:** Developed by [Alibaba Cloud / Qwen Team](https://huggingface.co/Qwen).
 - Please support their original work on HuggingFace and GitHub.
-
-## 🤝 Support
+## 🤝 Original Support Message from detoxfox4234 
 
 This is a free open-source project. I don't ask for donations.
 However, if you want to say "Thanks", check out my profile on **[Spotify](https://open.spotify.com/artist/7EdK2cuIo7xTAacutHs9gv?si=4AqQE6GcQpKJFeVk6gJ06g)**.
 
 A follow or a listen is the best way to support me! 🎧
+
+---
