@@ -5,8 +5,6 @@ Specially optimized for **AMD RDNA2 (only gfx1030 and gfx1032), RNDA3 (7000 seri
 
 > **🎯 Perfect for anyone who wants to test these models quickly without dealing with complex node graphs (ComfyUI).**
 
-![Screenshot](screenshot.png)
-
 ## Features
 
 - **🎬 Director Mode:** Choose presets (Ryan, Vivian) and provide direction instructions ("Angry", "Whispering").
