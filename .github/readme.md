@@ -24,6 +24,8 @@ Specially optimized for **AMD RDNA2 (only gfx1030 and gfx1032), RNDA3 (7000 seri
    - It installs pyTorch & rocm (required for AMD GPU support).
 3. Wait until the installation is complete.
 
+*** To use all rdna2 (gfx103x) you would need to manually install rocm and pytorch. https://app.mediafire.com/folder/mvrwkgj96lkua these are the needed packages for that, download them into a folder named rocm inside qwen3-voice-factory (keeping their names exactly the same), run "install-103x.bat" ***
+
 ## Usage
 
 1. Double-click on `start.bat`.
