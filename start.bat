@@ -10,5 +10,6 @@ if not exist "python_env\python.exe" (
     exit
 )
 
-.\python_env\python.exe appamd.py
+.\python_env\python.exe app.py
 pause
+
