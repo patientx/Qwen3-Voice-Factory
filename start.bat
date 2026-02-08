@@ -1,5 +1,5 @@
 @echo off
-title Qwen3 Voice Factory
+title Qwen3 Voice Factory (AMD GPU Optimized)
 echo Starting App...
 
 if not exist "python_env\python.exe" (
@@ -9,5 +9,5 @@ if not exist "python_env\python.exe" (
     exit
 )
 
-.\python_env\python.exe app.py
+.\python_env\python.exe appamd.py
 pause
